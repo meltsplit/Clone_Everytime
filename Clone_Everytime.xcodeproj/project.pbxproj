@@ -16,6 +16,9 @@
 		87FCE34827FF24F1009AC521 /* Clone_EverytimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCE34727FF24F1009AC521 /* Clone_EverytimeTests.swift */; };
 		87FCE35227FF24F1009AC521 /* Clone_EverytimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCE35127FF24F1009AC521 /* Clone_EverytimeUITests.swift */; };
 		87FCE35427FF24F1009AC521 /* Clone_EverytimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCE35327FF24F1009AC521 /* Clone_EverytimeUITestsLaunchTests.swift */; };
+		87FCE36127FF279A009AC521 /* UIColor_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCE36027FF279A009AC521 /* UIColor_Extension.swift */; };
+		87FCE36327FF2921009AC521 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCE36227FF2921009AC521 /* LoginViewController.swift */; };
+		87FCE36527FF383C009AC521 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCE36427FF383C009AC521 /* InsetTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		87FCE34D27FF24F1009AC521 /* Clone_EverytimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Clone_EverytimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FCE35127FF24F1009AC521 /* Clone_EverytimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clone_EverytimeUITests.swift; sourceTree = "<group>"; };
 		87FCE35327FF24F1009AC521 /* Clone_EverytimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clone_EverytimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87FCE36027FF279A009AC521 /* UIColor_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_Extension.swift; sourceTree = "<group>"; };
+		87FCE36227FF2921009AC521 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		87FCE36427FF383C009AC521 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +108,13 @@
 				87FCE33027FF24F0009AC521 /* AppDelegate.swift */,
 				87FCE33227FF24F0009AC521 /* SceneDelegate.swift */,
 				87FCE33427FF24F0009AC521 /* ViewController.swift */,
+				87FCE36227FF2921009AC521 /* LoginViewController.swift */,
+				87FCE36027FF279A009AC521 /* UIColor_Extension.swift */,
 				87FCE33627FF24F0009AC521 /* Main.storyboard */,
 				87FCE33927FF24F1009AC521 /* Assets.xcassets */,
 				87FCE33B27FF24F1009AC521 /* LaunchScreen.storyboard */,
 				87FCE33E27FF24F1009AC521 /* Info.plist */,
+				87FCE36427FF383C009AC521 /* InsetTextField.swift */,
 			);
 			path = Clone_Everytime;
 			sourceTree = "<group>";
@@ -261,6 +270,9 @@
 				87FCE33527FF24F0009AC521 /* ViewController.swift in Sources */,
 				87FCE33127FF24F0009AC521 /* AppDelegate.swift in Sources */,
 				87FCE33327FF24F0009AC521 /* SceneDelegate.swift in Sources */,
+				87FCE36327FF2921009AC521 /* LoginViewController.swift in Sources */,
+				87FCE36127FF279A009AC521 /* UIColor_Extension.swift in Sources */,
+				87FCE36527FF383C009AC521 /* InsetTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
