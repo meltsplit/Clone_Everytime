@@ -129,10 +129,16 @@ final class LoginViewController: UIViewController{
             self.loginButton.leadingAnchor.constraint(equalTo: self.stackView.leadingAnchor),
             self.loginButton.heightAnchor.constraint(equalToConstant: 40)
         ])
+        
         self.centerYConstaits = constrait
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(viewDidTap))
         self.view.addGestureRecognizer(tapGesture)
+        
+        
+        self.loginButton.addTarget(self, action: #selector(loginBtnPressed), for: .touchUpInside)
+        
+        
         
     } ///viewDidLoad
     
@@ -185,6 +191,16 @@ final class LoginViewController: UIViewController{
 
         print(keyboardFrame)
         print(duration)
+    }
+    
+    @objc func loginBtnPressed(sender: Any){
+        let nav = UINavigationController()
+        nav.modalPresentationStyle = .fullScreen
+        nav.navigationBar.backgroundColor = UIColor.white
+        nav.navigationBar.tintColor = UIColor(w: 242)
+        let controller = MainViewController()
+        nav.viewControllers = [controller]
+        self.present(nav, animated: true, completion: nil)
     }
 
     

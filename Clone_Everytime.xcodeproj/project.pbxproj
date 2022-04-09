@@ -19,6 +19,11 @@
 		87FCE36127FF279A009AC521 /* UIColor_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCE36027FF279A009AC521 /* UIColor_Extension.swift */; };
 		87FCE36327FF2921009AC521 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCE36227FF2921009AC521 /* LoginViewController.swift */; };
 		87FCE36527FF383C009AC521 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCE36427FF383C009AC521 /* InsetTextField.swift */; };
+		87FD77C62801E6DC004B2EA2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD77C52801E6DC004B2EA2 /* MainViewController.swift */; };
+		87FD77C82801ED6D004B2EA2 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD77C72801ED6D004B2EA2 /* MainCell.swift */; };
+		87FD77CA2801FC94004B2EA2 /* ReactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD77C92801FC94004B2EA2 /* ReactionView.swift */; };
+		87FD77CC280204CF004B2EA2 /* TextFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD77CB280204CF004B2EA2 /* TextFile.swift */; };
+		87FD77CE2802073A004B2EA2 /* NavigationTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD77CD2802073A004B2EA2 /* NavigationTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		87FCE36027FF279A009AC521 /* UIColor_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_Extension.swift; sourceTree = "<group>"; };
 		87FCE36227FF2921009AC521 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		87FCE36427FF383C009AC521 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		87FD77C52801E6DC004B2EA2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		87FD77C72801ED6D004B2EA2 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		87FD77C92801FC94004B2EA2 /* ReactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionView.swift; sourceTree = "<group>"; };
+		87FD77CB280204CF004B2EA2 /* TextFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFile.swift; sourceTree = "<group>"; };
+		87FD77CD2802073A004B2EA2 /* NavigationTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +118,18 @@
 				87FCE33027FF24F0009AC521 /* AppDelegate.swift */,
 				87FCE33227FF24F0009AC521 /* SceneDelegate.swift */,
 				87FCE33427FF24F0009AC521 /* ViewController.swift */,
-				87FCE36227FF2921009AC521 /* LoginViewController.swift */,
 				87FCE36027FF279A009AC521 /* UIColor_Extension.swift */,
+				87FCE36227FF2921009AC521 /* LoginViewController.swift */,
+				87FD77C52801E6DC004B2EA2 /* MainViewController.swift */,
+				87FCE36427FF383C009AC521 /* InsetTextField.swift */,
+				87FD77C72801ED6D004B2EA2 /* MainCell.swift */,
 				87FCE33627FF24F0009AC521 /* Main.storyboard */,
 				87FCE33927FF24F1009AC521 /* Assets.xcassets */,
 				87FCE33B27FF24F1009AC521 /* LaunchScreen.storyboard */,
 				87FCE33E27FF24F1009AC521 /* Info.plist */,
-				87FCE36427FF383C009AC521 /* InsetTextField.swift */,
+				87FD77C92801FC94004B2EA2 /* ReactionView.swift */,
+				87FD77CB280204CF004B2EA2 /* TextFile.swift */,
+				87FD77CD2802073A004B2EA2 /* NavigationTitleView.swift */,
 			);
 			path = Clone_Everytime;
 			sourceTree = "<group>";
@@ -267,11 +282,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87FD77C62801E6DC004B2EA2 /* MainViewController.swift in Sources */,
+				87FD77CA2801FC94004B2EA2 /* ReactionView.swift in Sources */,
 				87FCE33527FF24F0009AC521 /* ViewController.swift in Sources */,
 				87FCE33127FF24F0009AC521 /* AppDelegate.swift in Sources */,
 				87FCE33327FF24F0009AC521 /* SceneDelegate.swift in Sources */,
+				87FD77CE2802073A004B2EA2 /* NavigationTitleView.swift in Sources */,
 				87FCE36327FF2921009AC521 /* LoginViewController.swift in Sources */,
+				87FD77CC280204CF004B2EA2 /* TextFile.swift in Sources */,
 				87FCE36127FF279A009AC521 /* UIColor_Extension.swift in Sources */,
+				87FD77C82801ED6D004B2EA2 /* MainCell.swift in Sources */,
 				87FCE36527FF383C009AC521 /* InsetTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
